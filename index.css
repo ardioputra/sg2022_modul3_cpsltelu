@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+    font-family: Georgia;
+    font-size: 300%;
+    text-align: center;
+    border: 2px solid navy;
+}
+
+h2 {
+    color: red;
+    font-family: 'Lucida Sans';
+    font-size: 150%;
+    text-align: center;
+    border: 2px solid orangered;
+}

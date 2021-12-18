@@ -1,0 +1,24 @@
+{
+    "name": "sg2022_modul3_cpsltelu",
+    "version": "1.0.0",
+    "description": "Modul 3 untuk Study Group CPS Laboratory Tel-U membahas Web Development",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ardioputra/sg2022_modul3_cpsltelu.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ardioputra/sg2022_modul3_cpsltelu/issues"
+    },
+    "homepage": "https://github.com/ardioputra/sg2022_modul3_cpsltelu#readme",
+    "dependencies": {
+        "express": "^4.17.2",
+        "path": "^0.12.7"
+    }
+}
