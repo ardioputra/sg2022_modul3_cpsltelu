@@ -1,0 +1,33 @@
+/*
+	Beri body warna background whitesmoke
+*/
+
+body {
+	background: whitesmoke;
+}
+
+/*
+	Beri h1 warna merah dan tengahkan tulisan
+*/
+
+h1 {
+	color: red;
+	text-align: center;
+}
+
+/*
+	Beri h2 warna biru dan tengahkan tulisan
+*/
+
+h2 {
+	color: blue;
+	text-align: center;
+}
+
+/*
+	Beri .list padding sebesar 20px;
+*/
+
+.list {
+	padding: 20px
+}
