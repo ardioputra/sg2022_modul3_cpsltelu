@@ -36,9 +36,11 @@ body {
 
 section {
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 
-section::before {
+body::before {
     content: '';
     position: absolute;
     top: 0;
@@ -49,7 +51,7 @@ section::before {
     clip-path: circle(30% at right 70%);
 }
 
-section::after {
+body::after {
     content: '';
     position: absolute;
     top: 0;

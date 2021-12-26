@@ -10,17 +10,15 @@ function switchtheme() {
         localStorage.setItem('theme', 'light');
     }
 }
-setTimeout(function load(){
+window.onload = function() {
     const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
     var x = document.getElementById("button");
     if (currentTheme) {
         document.documentElement.setAttribute('data-theme', currentTheme);
         if (currentTheme === 'dark') {
             x.innerHTML = "Dark";
-        }
-        else{
+        } else {
             x.innerHTML = "Light";
         }
     }
-}, 0);
-load()
+}
